@@ -64,4 +64,24 @@ class TableViewController: UITableViewController {
         
         return cell
     }
+    
+    //Displays who sent the message when you click on the row
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let cell = tableView.cellForRowAtIndexPath(indexPath)
+        let cellMessage = store.messages[indexPath.row].content
+        let cellRecipient = store.messages[indexPath.row].recipient?.name
+        if cell?.textLabel?.text == "Sent by \(cellRecipient!)" {
+            cell?.textLabel?.text = cellMessage } else if cell?.textLabel?.text == cellMessage {
+            cell?.textLabel?.text = "Sent by \(cellRecipient!)"
+        }
+        
+    }
+    
+//    override func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+//        let cell = tableView.cellForRowAtIndexPath(indexPath)
+////        let cellRecipient = store.messages[indexPath.row].recipient!.name
+//        
+//        cell?.textLabel?.text = store.messages[indexPath.row].content
+//        
+//    }
 }

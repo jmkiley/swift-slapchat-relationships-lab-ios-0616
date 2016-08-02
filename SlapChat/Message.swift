@@ -2,7 +2,7 @@
 //  Message.swift
 //  SlapChat
 //
-//  Created by Flatiron School on 7/18/16.
+//  Created by Jordan Kiley on 7/31/16.
 //  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
@@ -12,8 +12,6 @@ import CoreData
 
 class Message: NSManagedObject {
 
-    static let entityName = "Message"
-    static let sortKey = "createdAt"
 // Insert code here to add functionality to your managed object subclass
 
 }

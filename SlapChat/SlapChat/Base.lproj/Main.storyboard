@@ -18,7 +18,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ceF-J0-XFT" id="CNT-xC-cgz">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -28,11 +28,45 @@
                             <outlet property="delegate" destination="eMg-Pq-MgB" id="1bz-LI-cla"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="gLk-Fv-w8B"/>
+                    <navigationItem key="navigationItem" id="gLk-Fv-w8B">
+                        <barButtonItem key="rightBarButtonItem" title="Recipients" id="Vv4-CF-dzh">
+                            <connections>
+                                <segue destination="K8D-OU-vLA" kind="show" id="pir-NB-uot"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDP-5Q-X06" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1295" y="-78"/>
+        </scene>
+        <!--Recipient Table View Controller-->
+        <scene sceneID="D6f-cs-Ijp">
+            <objects>
+                <tableViewController id="K8D-OU-vLA" customClass="RecipientTableViewController" customModule="SlapChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9aE-J8-SIb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="recipientCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="recipientCell" id="qaN-JG-BLi">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qaN-JG-BLi" id="d97-pK-AeX">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="K8D-OU-vLA" id="hAY-ZV-Eze"/>
+                            <outlet property="delegate" destination="K8D-OU-vLA" id="9dq-ue-pEf"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BhI-VQ-Nxp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1973" y="-81"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KCa-fg-itu">

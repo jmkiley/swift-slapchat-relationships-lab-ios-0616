@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		176EADA01D50E08F005BC0AE /* Recipient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176EAD9E1D50E08F005BC0AE /* Recipient+CoreDataProperties.swift */; };
+		176EADA11D50E08F005BC0AE /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176EAD9F1D50E08F005BC0AE /* Message+CoreDataProperties.swift */; };
+		176EADA71D50E0D0005BC0AE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176EADA61D50E0D0005BC0AE /* Message.swift */; };
+		176EADAB1D50E129005BC0AE /* Recipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176EADAA1D50E129005BC0AE /* Recipient.swift */; };
+		178CF7391D4EC9E5007F3348 /* RecipientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178CF7381D4EC9E5007F3348 /* RecipientTableViewController.swift */; };
 		1B8593041D3D2D660051D343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8593031D3D2D660051D343 /* AppDelegate.swift */; };
 		1B8593091D3D2D660051D343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8593071D3D2D660051D343 /* Main.storyboard */; };
 		1B85930C1D3D2D660051D343 /* SlapChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B85930A1D3D2D660051D343 /* SlapChat.xcdatamodeld */; };
 		1B85930E1D3D2D660051D343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B85930D1D3D2D660051D343 /* Assets.xcassets */; };
 		1B8593111D3D2D660051D343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B85930F1D3D2D660051D343 /* LaunchScreen.storyboard */; };
 		1B8593191D3D2DC70051D343 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8593181D3D2DC70051D343 /* DataStore.swift */; };
-		1B85931C1D3D2E420051D343 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85931A1D3D2E420051D343 /* Message+CoreDataProperties.swift */; };
-		1B85931D1D3D2E420051D343 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85931B1D3D2E420051D343 /* Message.swift */; };
 		1B85931F1D3D2EAD0051D343 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85931E1D3D2EAD0051D343 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		176EAD9E1D50E08F005BC0AE /* Recipient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipient+CoreDataProperties.swift"; path = "../Recipient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		176EAD9F1D50E08F005BC0AE /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Message+CoreDataProperties.swift"; path = "../Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		176EADA61D50E0D0005BC0AE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		176EADAA1D50E129005BC0AE /* Recipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipient.swift; sourceTree = SOURCE_ROOT; };
+		178CF7381D4EC9E5007F3348 /* RecipientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipientTableViewController.swift; sourceTree = "<group>"; };
 		1B8593001D3D2D660051D343 /* SlapChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlapChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8593031D3D2D660051D343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B8593081D3D2D660051D343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,8 +35,6 @@
 		1B8593101D3D2D660051D343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B8593121D3D2D660051D343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8593181D3D2DC70051D343 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		1B85931A1D3D2E420051D343 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1B85931B1D3D2E420051D343 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1B85931E1D3D2EAD0051D343 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,12 +68,15 @@
 		1B8593021D3D2D660051D343 /* SlapChat */ = {
 			isa = PBXGroup;
 			children = (
+				176EADAA1D50E129005BC0AE /* Recipient.swift */,
+				176EADA61D50E0D0005BC0AE /* Message.swift */,
 				1B8593031D3D2D660051D343 /* AppDelegate.swift */,
 				1B8593181D3D2DC70051D343 /* DataStore.swift */,
-				1B85931A1D3D2E420051D343 /* Message+CoreDataProperties.swift */,
-				1B85931B1D3D2E420051D343 /* Message.swift */,
+				176EAD9E1D50E08F005BC0AE /* Recipient+CoreDataProperties.swift */,
+				176EAD9F1D50E08F005BC0AE /* Message+CoreDataProperties.swift */,
 				1B85931E1D3D2EAD0051D343 /* TableViewController.swift */,
 				1B8593071D3D2D660051D343 /* Main.storyboard */,
+				178CF7381D4EC9E5007F3348 /* RecipientTableViewController.swift */,
 				1B85930D1D3D2D660051D343 /* Assets.xcassets */,
 				1B85930F1D3D2D660051D343 /* LaunchScreen.storyboard */,
 				1B8593121D3D2D660051D343 /* Info.plist */,
@@ -148,10 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B85930C1D3D2D660051D343 /* SlapChat.xcdatamodeld in Sources */,
+				178CF7391D4EC9E5007F3348 /* RecipientTableViewController.swift in Sources */,
 				1B85931F1D3D2EAD0051D343 /* TableViewController.swift in Sources */,
+				176EADA01D50E08F005BC0AE /* Recipient+CoreDataProperties.swift in Sources */,
+				176EADA11D50E08F005BC0AE /* Message+CoreDataProperties.swift in Sources */,
+				176EADAB1D50E129005BC0AE /* Recipient.swift in Sources */,
+				176EADA71D50E0D0005BC0AE /* Message.swift in Sources */,
 				1B8593191D3D2DC70051D343 /* DataStore.swift in Sources */,
-				1B85931D1D3D2E420051D343 /* Message.swift in Sources */,
-				1B85931C1D3D2E420051D343 /* Message+CoreDataProperties.swift in Sources */,
 				1B8593041D3D2D660051D343 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +314,7 @@
 				1B8593171D3D2D660051D343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
